@@ -1,4 +1,6 @@
 import { FaVest } from 'react-icons/fa'
+import { FaBeer } from "react-icons/fa";
+
 
 const Header = () => {
   return (
