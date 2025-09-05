@@ -1,0 +1,52 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light text-gray-800;
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block bg-primary text-dark px-6 py-3 rounded-full font-semibold transition-all duration-300;
+  }
+  
+  .btn:hover {
+    @apply bg-amber-600 -translate-y-1 shadow-lg;
+  }
+  
+  .section-title {
+    @apply text-center mb-12;
+  }
+  
+  .section-title h2 {
+    @apply text-4xl text-dark mb-4;
+  }
+  
+  .section-title p {
+    @apply text-gray-600 max-w-2xl mx-auto;
+  }
+  
+  .service-card {
+    @apply bg-light rounded-xl overflow-hidden shadow-custom transition-transform duration-300;
+  }
+  
+  .service-card:hover {
+    @apply -translate-y-3;
+  }
+  
+  .gallery-item {
+    @apply rounded-xl overflow-hidden h-64 relative;
+  }
+  
+  .contact-icon {
+    @apply w-12 h-12 bg-primary rounded-full flex items-center justify-center text-dark text-xl;
+  }
+  
+  .form-control {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg text-base;
+  }
+} */
